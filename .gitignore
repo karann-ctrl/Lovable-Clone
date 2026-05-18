@@ -31,3 +31,23 @@ build/
 
 ### VS Code ###
 .vscode/
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.pem
+*.key
+secret.json
+firebase-service-account.json
+
+# Logs
+*.log
+
+# Mac/Linux/Windows junk
+.DS_Store
+Thumbs.db
+
+src/main/resources/application.properties
+src/main/resources/application.yml
